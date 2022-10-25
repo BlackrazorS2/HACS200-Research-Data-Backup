@@ -13,10 +13,10 @@ git commit -m "Backups" copied_logs/*
 git commit -m "Updated Spreadsheet" Parsed_Spreadsheets/STATS_LATEST.csv
 git push
 
-cd ../HACS200-Research/Parsing
-git fetch
-git pull
-cp /home/students/HACS200-Research-Data-Backup/Parsed_Spreadsheets/STATS_LATEST.csv ./
-git add STATS_LATEST.csv
-git commit -m "Updated Spreadsheet" STATS_LATEST.csv
-git push
+#cd ../HACS200-Research/Parsing
+#git fetch
+#git pull
+#cp /home/students/HACS200-Research-Data-Backup/Parsed_Spreadsheets/STATS_LATEST.csv ./
+#git add STATS_LATEST.csv
+#git commit -m "Updated Spreadsheet" STATS_LATEST.csv
+#git push
