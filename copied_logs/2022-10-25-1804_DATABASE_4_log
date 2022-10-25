@@ -1,0 +1,15 @@
+
+2022-10-25 18:03:50.446 - [Debug] [Auth] Attacker 117.80.212.33 trying to authenticate with 'none'
+2022-10-25 18:03:50.446 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:03:50.902 - [Debug] [Auth] Attacker 117.80.212.33 trying to authenticate with 'password'
+2022-10-25 18:03:50.903 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 18:03:50.903 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.143
+2022-10-25 18:03:50.948 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 18:03:51.117 - [Debug] [EXEC] Noninteractive mode attacker command: PATH=/dev/shm/:/tmp/:./:/var/tmp/:/root/:/etc/:$PATH nc localhost 1234
+2022-10-25 18:03:51.231 - [Debug] [Connection] Attacker closed connection
+2022-10-25 18:03:51.239 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 18:03:51.240 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 18:03:51.315 - [Debug] [Auth] Attacker 120.197.154.22 trying to authenticate with 'none'
+2022-10-25 18:03:51.315 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:03:51.445 - [Debug] [Connection] Attacker connected: 120.236.74.234 | Client Identification: SSH-2.0-Go
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

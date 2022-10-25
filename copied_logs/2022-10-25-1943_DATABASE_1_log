@@ -1,0 +1,23 @@
+
+2022-10-25 19:43:09.744 - [Debug] [EXEC] Noninteractive mode attacker command: PATH=/dev/shm/:/tmp/:./:/var/tmp/:/root/:/etc/:$PATH nc localhost 1234
+2022-10-25 19:43:09.886 - [Debug] [Auth] Attacker 121.200.53.148 trying to authenticate with 'publickey'
+2022-10-25 19:43:09.887 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:43:09.888 - [Debug] [Auth] Attacker: 121.200.53.148 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:43:09.897 - [Debug] [Connection] Attacker connected: 58.216.8.121 | Client Identification: SSH-2.0-Go
+2022-10-25 19:43:09.918 - [Debug] [Auth] Attacker 222.165.136.99 trying to authenticate with 'publickey'
+2022-10-25 19:43:09.918 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:43:09.919 - [Debug] [Auth] Attacker: 222.165.136.99 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:43:10.349 - [Debug] [Connection] Attacker connected: 120.236.74.234 | Client Identification: SSH-2.0-Go
+2022-10-25 19:43:10.394 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 19:43:10.410 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 19:43:10.470 - [Debug] [Connection] Attacker closed connection
+2022-10-25 19:43:10.478 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 19:43:10.515 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 19:43:10.677 - [Debug] [Connection] Attacker closed connection
+2022-10-25 19:43:10.687 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 19:43:10.711 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 19:43:11.131 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 19:43:11.131 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:43:11.279 - [Debug] [Auth] Attacker 58.216.8.121 trying to authenticate with 'none'
+2022-10-25 19:43:11.279 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

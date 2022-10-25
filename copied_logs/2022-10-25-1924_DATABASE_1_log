@@ -1,0 +1,68 @@
+
+(node:880620) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_1',
+  containerIp: '10.0.3.174',
+  mitmPort: 1000,
+  autoAccessFixed: 1
+}
+2022-10-25 19:24:15.984 - [Info] MITM Version: 2
+2022-10-25 19:24:15.986 - [Info] Auto Access Enabled: true
+2022-10-25 19:24:15.993 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 19:24:16.020 - [Info] SSH man-in-the-middle server for 10.0.3.174 listening on 10.0.3.1:1000
+(node:884370) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_1',
+  containerIp: '10.0.3.45',
+  mitmPort: 1000,
+  autoAccessFixed: 1
+}
+2022-10-25 19:24:51.310 - [Info] MITM Version: 2
+2022-10-25 19:24:51.320 - [Info] Auto Access Enabled: true
+2022-10-25 19:24:51.321 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 19:24:51.334 - [Debug] listen EADDRINUSE: address already in use 10.0.3.1:1000
+2022-10-25 19:24:51.335 - [Error] Another MITM instance or another program is already listening on this port
+{"level":"error","message":"Forever detected script exited with code: 1"}
+2022-10-25 19:24:51.951 - [Debug] [Connection] Attacker connected: 61.84.162.66 | Client Identification: SSH-2.0-Go
+2022-10-25 19:24:52.534 - [Debug] [Connection] Attacker connected: 222.117.95.174 | Client Identification: SSH-2.0-Go
+2022-10-25 19:24:52.557 - [Debug] [Connection] Attacker connected: 58.216.8.121 | Client Identification: SSH-2.0-Go
+2022-10-25 19:24:52.642 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 19:24:52.888 - [Debug] [Connection] Attacker connected: 223.171.91.191 | Client Identification: SSH-2.0-Go
+2022-10-25 19:24:53.254 - [Debug] [Auth] Attacker 61.84.162.66 trying to authenticate with 'none'
+2022-10-25 19:24:53.255 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:24:53.698 - [Debug] [Auth] Attacker 61.84.162.66 trying to authenticate with 'publickey'
+2022-10-25 19:24:53.701 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:24:53.702 - [Debug] [Auth] Attacker: 61.84.162.66 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:24:53.796 - [Debug] [Auth] Attacker 222.117.95.174 trying to authenticate with 'none'
+2022-10-25 19:24:53.796 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:24:53.859 - [Debug] [Auth] Attacker 58.216.8.121 trying to authenticate with 'none'
+2022-10-25 19:24:53.860 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:24:54.149 - [Debug] [Connection] Attacker closed the connection

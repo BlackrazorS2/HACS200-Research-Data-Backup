@@ -1,0 +1,54 @@
+
+(node:2344567) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:2353872) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_4',
+  containerIp: '10.0.3.62',
+  mitmPort: 1003,
+  autoAccessFixed: 1
+}
+2022-10-25 01:18:58.780 - [Info] MITM Version: 2
+2022-10-25 01:18:58.781 - [Info] Auto Access Enabled: true
+2022-10-25 01:18:58.781 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 01:18:58.789 - [Info] SSH man-in-the-middle server for 10.0.3.62 listening on 10.0.3.1:1003
+2022-10-25 01:18:59.117 - [Debug] [Connection] Attacker connected: 120.31.133.162 | Client Identification: SSH-2.0-Go
+2022-10-25 01:18:59.498 - [Debug] [Connection] Attacker connected: 180.93.32.58 | Client Identification: SSH-2.0-Go
+2022-10-25 01:18:59.624 - [Debug] [Connection] Attacker connected: 120.224.143.251 | Client Identification: SSH-2.0-Go
+2022-10-25 01:18:59.977 - [Debug] [Connection] Attacker connected: 93.103.126.32 | Client Identification: SSH-2.0-Go
+2022-10-25 01:19:00.507 - [Debug] [Auth] Attacker 120.31.133.162 trying to authenticate with 'none'
+2022-10-25 01:19:00.508 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:19:00.698 - [Debug] [Auth] Attacker 93.103.126.32 trying to authenticate with 'none'
+2022-10-25 01:19:00.698 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:19:00.959 - [Debug] [Auth] Attacker 93.103.126.32 trying to authenticate with 'publickey'
+2022-10-25 01:19:00.961 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 01:19:00.961 - [Debug] [Auth] Attacker: 93.103.126.32 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 01:19:00.996 - [Debug] [Auth] Attacker 120.31.133.162 trying to authenticate with 'publickey'
+2022-10-25 01:19:00.996 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 01:19:00.997 - [Debug] [Auth] Attacker: 120.31.133.162 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 01:19:01.066 - [Debug] [Auth] Attacker 180.93.32.58 trying to authenticate with 'none'
+2022-10-25 01:19:01.066 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:19:01.223 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 01:19:01.339 - [Debug] [Connection] Attacker connected: 93.103.126.32 | Client Identification: SSH-2.0-Go
+2022-10-25 01:19:01.487 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 01:19:01.520 - [Debug] [Auth] Attacker 120.224.143.251 trying to authenticate with 'none'
+2022-10-25 01:19:01.521 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:19:01.611 - [Debug] [Auth] Attacker 180.93.32.58 trying to authenticate with 'publickey'
+2022-10-25 01:19:01.612 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 01:19:01.613 - [Debug] [Auth] Attacker: 180.93.32.58 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 01:19:01.706 - [Debug] [Connection] Attacker connected: 120.31.133.162 | Client Identification: SSH-2.0-Go

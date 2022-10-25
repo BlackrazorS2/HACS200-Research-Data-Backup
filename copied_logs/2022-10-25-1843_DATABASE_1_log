@@ -1,0 +1,4 @@
+
+2022-10-25 18:43:25.895 - [Debug] [Auth] Attacker 31.165.5.155 trying to authenticate with 'none'
+2022-10-25 18:43:25.895 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

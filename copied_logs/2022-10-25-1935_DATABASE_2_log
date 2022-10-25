@@ -1,0 +1,67 @@
+
+(node:975280) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_2',
+  containerIp: '10.0.3.76',
+  mitmPort: 1001,
+  autoAccessFixed: 1
+}
+2022-10-25 19:34:03.603 - [Info] MITM Version: 2
+2022-10-25 19:34:03.605 - [Info] Auto Access Enabled: true
+2022-10-25 19:34:03.605 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 19:34:03.613 - [Info] SSH man-in-the-middle server for 10.0.3.76 listening on 10.0.3.1:1001
+2022-10-25 19:35:16.222 - [Debug] [Connection] Attacker connected: 61.84.162.66 | Client Identification: SSH-2.0-Go
+(node:987127) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_2',
+  containerIp: '10.0.3.125',
+  mitmPort: 1001,
+  autoAccessFixed: 1
+}
+2022-10-25 19:35:16.683 - [Info] MITM Version: 2
+2022-10-25 19:35:16.684 - [Info] Auto Access Enabled: true
+2022-10-25 19:35:16.685 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 19:35:16.692 - [Debug] listen EADDRINUSE: address already in use 10.0.3.1:1001
+2022-10-25 19:35:16.692 - [Error] Another MITM instance or another program is already listening on this port
+{"level":"error","message":"Forever detected script exited with code: 1"}
+2022-10-25 19:35:17.058 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 19:35:17.556 - [Debug] [Connection] Attacker connected: 54.38.97.156 | Client Identification: SSH-2.0-Go
+2022-10-25 19:35:17.571 - [Debug] [Auth] Attacker 61.84.162.66 trying to authenticate with 'none'
+2022-10-25 19:35:17.571 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:35:18.017 - [Debug] [Auth] Attacker 61.84.162.66 trying to authenticate with 'publickey'
+2022-10-25 19:35:18.019 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:35:18.020 - [Debug] [Auth] Attacker: 61.84.162.66 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:35:18.237 - [Debug] [Auth] Attacker 54.38.97.156 trying to authenticate with 'none'
+2022-10-25 19:35:18.237 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:35:18.449 - [Debug] [Auth] Attacker 54.38.97.156 trying to authenticate with 'publickey'
+2022-10-25 19:35:18.450 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:35:18.450 - [Debug] [Auth] Attacker: 54.38.97.156 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:35:18.473 - [Debug] [Connection] Attacker closed the connection

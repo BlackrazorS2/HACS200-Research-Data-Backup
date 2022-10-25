@@ -1,0 +1,9 @@
+
+2022-10-25 01:55:14.983 - [Debug] [Auth] Attacker 121.200.53.148 trying to authenticate with 'none'
+2022-10-25 01:55:14.983 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:55:15.032 - [Debug] [Auth] Attacker 43.242.247.139 trying to authenticate with 'none'
+2022-10-25 01:55:15.033 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:55:15.112 - [Debug] [Connection] Attacker closed connection
+2022-10-25 01:55:15.121 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 01:55:15.123 - [Debug] [LXC] Container's OpenSSH server closed connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

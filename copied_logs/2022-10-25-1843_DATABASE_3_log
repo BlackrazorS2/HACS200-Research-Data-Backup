@@ -1,0 +1,10 @@
+
+2022-10-25 18:43:53.259 - [Debug] [Auth] Attacker 31.165.5.155 trying to authenticate with 'none'
+2022-10-25 18:43:53.260 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:43:53.568 - [Debug] [Auth] Attacker 31.165.5.155 trying to authenticate with 'publickey'
+2022-10-25 18:43:53.570 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:43:53.571 - [Debug] [Auth] Attacker: 31.165.5.155 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:43:53.800 - [Debug] [Auth] Attacker 31.14.115.42 trying to authenticate with 'none'
+2022-10-25 18:43:53.800 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:43:53.878 - [Debug] [Connection] Attacker closed the connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

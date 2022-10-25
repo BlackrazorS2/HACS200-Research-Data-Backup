@@ -1,0 +1,6 @@
+
+2022-10-25 18:48:42.595 - [Debug] [Auth] Attacker 85.53.55.133 trying to authenticate with 'publickey'
+2022-10-25 18:48:42.595 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:48:42.596 - [Debug] [Auth] Attacker: 85.53.55.133 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:48:42.810 - [Debug] [Connection] Attacker closed the connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

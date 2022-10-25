@@ -1,0 +1,11 @@
+
+2022-10-25 03:02:56.737 - [Debug] [Auth] Attacker 78.189.25.224 trying to authenticate with 'publickey'
+2022-10-25 03:02:56.737 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 03:02:56.738 - [Debug] [Auth] Attacker: 78.189.25.224 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 03:02:56.766 - [Debug] [Auth] Attacker 182.224.177.33 trying to authenticate with 'publickey'
+2022-10-25 03:02:56.767 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 03:02:56.767 - [Debug] [Auth] Attacker: 182.224.177.33 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 03:02:56.892 - [Debug] [Auth] Attacker 89.100.220.200 trying to authenticate with 'none'
+2022-10-25 03:02:56.892 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 03:02:56.898 - [Debug] [Connection] Attacker closed the connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

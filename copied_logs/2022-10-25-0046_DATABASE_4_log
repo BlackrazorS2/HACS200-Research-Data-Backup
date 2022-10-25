@@ -1,0 +1,19 @@
+
+2022-10-25 00:44:55.721 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2022-10-25 00:44:55.728 - [Debug] [Auth] Attacker 54.38.97.156 trying to authenticate with 'password'
+2022-10-25 00:44:55.730 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 00:44:55.730 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.222
+2022-10-25 00:44:55.771 - [Debug] [Auth] Attacker 84.16.224.173 trying to authenticate with 'publickey'
+2022-10-25 00:44:55.771 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 00:44:55.772 - [Debug] [Auth] Attacker: 84.16.224.173 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 00:44:55.784 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 00:44:55.873 - [Debug] [Connection] Attacker connected: 223.171.91.120 | Client Identification: SSH-2.0-Go
+2022-10-25 00:44:56.003 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 00:44:56.026 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2022-10-25 00:44:56.027 - [Debug] [Connection] Attacker closed connection
+2022-10-25 00:44:56.035 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 00:44:56.036 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 00:44:56.089 - [Debug] [Connection] Attacker connected: 185.55.64.228 | Client Identification: SSH-2.0-Go
+2022-10-25 00:44:56.163 - [Debug] [Connection] Attacker connected: 84.16.224.173 | Client Identification: SSH-2.0-Go
+2022-10-25 00:44:56.171 - [Debug] [Connection] Attacker connected: 85.105.58.118 | Client Identification: SSH-2.0-Go
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

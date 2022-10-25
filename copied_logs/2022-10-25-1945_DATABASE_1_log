@@ -1,0 +1,14 @@
+
+022-10-25 19:44:57.326 - [Debug] [Connection] Attacker connected: 184.67.149.186 | Client Identification: SSH-2.0-Go
+2022-10-25 19:44:57.399 - [Debug] [Connection] Attacker connected: 62.12.108.44 | Client Identification: SSH-2.0-Go
+2022-10-25 19:44:57.422 - [Debug] [Auth] Attacker 222.103.98.58 trying to authenticate with 'publickey'
+2022-10-25 19:44:57.423 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:44:57.424 - [Debug] [Auth] Attacker: 222.103.98.58 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:44:57.855 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 19:44:57.882 - [Debug] [Auth] Attacker 184.67.149.186 trying to authenticate with 'none'
+2022-10-25 19:44:57.882 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:44:58.091 - [Debug] [Auth] Attacker 184.67.149.186 trying to authenticate with 'password'
+2022-10-25 19:44:58.091 - [Debug] [Auto Access] Attacker: 184.67.149.186, Threshold: 1, Attempts: 1
+2022-10-25 19:44:58.092 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 19:44:58.092 - [Debug] [Auto Access] Adding the following credentials: 'root:1'
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

@@ -1,0 +1,77 @@
+
+(node:2616435) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_4',
+  containerIp: '10.0.3.29',
+  mitmPort: 1003,
+  autoAccessFixed: 1
+}
+2022-10-25 01:49:49.608 - [Info] MITM Version: 2
+2022-10-25 01:49:49.609 - [Info] Auto Access Enabled: true
+2022-10-25 01:49:49.609 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 01:49:49.628 - [Info] SSH man-in-the-middle server for 10.0.3.29 listening on 10.0.3.1:1003
+(node:2625753) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_4',
+  containerIp: '10.0.3.167',
+  mitmPort: 1003,
+  autoAccessFixed: 1
+}
+2022-10-25 01:50:51.308 - [Info] MITM Version: 2
+2022-10-25 01:50:51.310 - [Info] Auto Access Enabled: true
+2022-10-25 01:50:51.310 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 01:50:51.319 - [Debug] listen EADDRINUSE: address already in use 10.0.3.1:1003
+2022-10-25 01:50:51.319 - [Error] Another MITM instance or another program is already listening on this port
+{"level":"error","message":"Forever detected script exited with code: 1"}
+2022-10-25 01:50:51.770 - [Debug] [Connection] Attacker connected: 120.236.69.162 | Client Identification: SSH-2.0-Go
+2022-10-25 01:50:52.637 - [Debug] [Connection] Attacker connected: 120.236.79.182 | Client Identification: SSH-2.0-Go
+2022-10-25 01:50:53.463 - [Debug] [Auth] Attacker 120.236.69.162 trying to authenticate with 'none'
+2022-10-25 01:50:53.464 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:50:54.021 - [Debug] [Connection] Attacker connected: 85.105.82.39 | Client Identification: SSH-2.0-Go
+2022-10-25 01:50:54.076 - [Debug] [Auth] Attacker 120.236.69.162 trying to authenticate with 'publickey'
+2022-10-25 01:50:54.078 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 01:50:54.078 - [Debug] [Auth] Attacker: 120.236.69.162 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 01:50:54.274 - [Debug] [Connection] Attacker connected: 121.200.53.148 | Client Identification: SSH-2.0-Go
+2022-10-25 01:50:54.312 - [Debug] [Auth] Attacker 120.236.79.182 trying to authenticate with 'none'
+2022-10-25 01:50:54.312 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:50:54.661 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 01:50:54.864 - [Debug] [Auth] Attacker 85.105.82.39 trying to authenticate with 'none'
+2022-10-25 01:50:54.864 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:50:54.876 - [Debug] [Auth] Attacker 120.236.79.182 trying to authenticate with 'password'
+2022-10-25 01:50:54.877 - [Debug] [Auto Access] Attacker: 120.236.79.182, Threshold: 1, Attempts: 1
+2022-10-25 01:50:54.877 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 01:50:54.877 - [Debug] [Auto Access] Adding the following credentials: 'root:1'
+2022-10-25 01:50:54.938 - [Debug] [Auto Access] Auto-access is now disabled for the remainder of this MITM server instance
+2022-10-25 01:50:54.939 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 01:50:54.939 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.29
+2022-10-25 01:50:54.943 - [Debug] [Connection] Attacker connected: 120.236.69.162 | Client Identification: SSH-2.0-Go
+2022-10-25 01:50:55.130 - [Debug] [Auth] Attacker 85.105.82.39 trying to authenticate with 'publickey'
+2022-10-25 01:50:55.131 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed

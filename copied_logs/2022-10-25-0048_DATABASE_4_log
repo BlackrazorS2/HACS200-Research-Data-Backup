@@ -1,0 +1,10 @@
+
+2022-10-25 00:47:34.922 - [Debug] [Auth] Attacker 144.22.130.100 trying to authenticate with 'none'
+2022-10-25 00:47:34.922 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 00:47:34.962 - [Debug] [Connection] Attacker closed connection
+2022-10-25 00:47:34.966 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 00:47:34.967 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 00:47:35.168 - [Debug] [Auth] Attacker 144.22.130.100 trying to authenticate with 'password'
+2022-10-25 00:47:35.169 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 00:47:35.169 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.242
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

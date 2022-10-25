@@ -1,0 +1,9 @@
+
+2022-10-25 00:42:14.254 - [Debug] [Connection] Attacker closed connection
+2022-10-25 00:42:14.264 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 00:42:14.265 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 00:42:14.326 - [Debug] [Auth] Attacker 1.220.98.197 trying to authenticate with 'password'
+2022-10-25 00:42:14.327 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 00:42:14.327 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.247
+2022-10-25 00:42:14.371 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

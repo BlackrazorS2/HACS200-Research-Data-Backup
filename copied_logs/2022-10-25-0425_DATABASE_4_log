@@ -1,0 +1,17 @@
+
+2022-10-25 04:24:28.689 - [Debug] [Auto Access] Auto-access is now disabled for the remainder of this MITM server instance
+2022-10-25 04:24:28.691 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 04:24:28.692 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.73
+2022-10-25 04:24:28.741 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 04:24:28.772 - [Debug] [Auth] Attacker 143.198.133.234 trying to authenticate with 'none'
+2022-10-25 04:24:28.773 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:24:28.820 - [Debug] [Connection] Attacker connected: 102.141.225.238 | Client Identification: SSH-2.0-Go
+2022-10-25 04:24:28.888 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 04:24:28.892 - [Debug] [Auth] Attacker 43.242.247.139 trying to authenticate with 'none'
+2022-10-25 04:24:28.892 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:24:28.925 - [Debug] [Auth] Attacker 143.198.133.234 trying to authenticate with 'password'
+2022-10-25 04:24:28.926 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 04:24:28.926 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.73
+2022-10-25 04:24:28.974 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 04:24:29.088 - [Debug] [Connection] Attacker connected: 112.160.137.62 | Client Identification: SSH-2.0-Go
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

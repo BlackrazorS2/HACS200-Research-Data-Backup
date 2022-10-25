@@ -1,0 +1,17 @@
+
+2022-10-25 01:45:30.461 - [Debug] [Auth] Attacker 147.182.233.56 trying to authenticate with 'none'
+2022-10-25 01:45:30.461 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:45:30.538 - [Debug] [Auth] Attacker 78.187.13.206 trying to authenticate with 'publickey'
+2022-10-25 01:45:30.539 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 01:45:30.539 - [Debug] [Auth] Attacker: 78.187.13.206 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 01:45:30.576 - [Debug] [Auth] Attacker 31.165.5.155 trying to authenticate with 'password'
+2022-10-25 01:45:30.577 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 01:45:30.577 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.155
+2022-10-25 01:45:30.604 - [Debug] [Auth] Attacker 147.182.233.56 trying to authenticate with 'password'
+2022-10-25 01:45:30.605 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 01:45:30.605 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.155
+2022-10-25 01:45:30.625 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 01:45:30.669 - [Debug] [Connection] Attacker connected: 121.200.53.148 | Client Identification: SSH-2.0-Go
+2022-10-25 01:45:30.671 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 01:45:30.830 - [Debug] [Connection] Attacker closed the connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

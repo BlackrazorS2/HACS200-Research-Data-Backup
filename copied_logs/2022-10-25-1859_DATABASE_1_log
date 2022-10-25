@@ -1,0 +1,61 @@
+
+(node:640913) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_1',
+  containerIp: '10.0.3.242',
+  mitmPort: 1000,
+  autoAccessFixed: 1
+}
+2022-10-25 18:59:14.776 - [Info] MITM Version: 2
+2022-10-25 18:59:14.778 - [Info] Auto Access Enabled: true
+2022-10-25 18:59:14.778 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 18:59:14.785 - [Info] SSH man-in-the-middle server for 10.0.3.242 listening on 10.0.3.1:1000
+2022-10-25 18:59:50.197 - [Debug] [Connection] Attacker connected: 20.127.87.36 | Client Identification: SSH-2.0-Go
+(node:646675) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+2022-10-25 18:59:50.341 - [Debug] [Auth] Attacker 20.127.87.36 trying to authenticate with 'none'
+2022-10-25 18:59:50.341 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_1',
+  containerIp: '10.0.3.87',
+  mitmPort: 1000,
+  autoAccessFixed: 1
+}
+2022-10-25 18:59:50.362 - [Debug] [Auth] Attacker 20.127.87.36 trying to authenticate with 'publickey'
+2022-10-25 18:59:50.364 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:59:50.364 - [Debug] [Auth] Attacker: 20.127.87.36 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:59:50.361 - [Info] MITM Version: 2
+2022-10-25 18:59:50.367 - [Info] Auto Access Enabled: true
+2022-10-25 18:59:50.367 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 18:59:50.375 - [Debug] listen EADDRINUSE: address already in use 10.0.3.1:1000
+2022-10-25 18:59:50.375 - [Error] Another MITM instance or another program is already listening on this port
+{"level":"error","message":"Forever detected script exited with code: 1"}
+2022-10-25 18:59:50.384 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:59:50.393 - [Debug] [Connection] Attacker connected: 20.127.87.36 | Client Identification: SSH-2.0-Go

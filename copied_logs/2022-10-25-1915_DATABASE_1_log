@@ -1,0 +1,8 @@
+
+2022-10-25 19:14:57.252 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 19:14:57.269 - [Debug] [Connection] Attacker connected: 58.216.8.121 | Client Identification: SSH-2.0-Go
+2022-10-25 19:14:57.503 - [Debug] [Auth] Attacker 117.80.212.33 trying to authenticate with 'none'
+2022-10-25 19:14:57.503 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:14:57.571 - [Debug] [Auth] Attacker 182.224.177.28 trying to authenticate with 'none'
+2022-10-25 19:14:57.572 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

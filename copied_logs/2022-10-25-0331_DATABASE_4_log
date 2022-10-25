@@ -1,0 +1,10 @@
+
+2022-10-25 03:30:30.712 - [Debug] [Auth] Attacker 54.38.97.156 trying to authenticate with 'none'
+2022-10-25 03:30:30.713 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 03:30:30.927 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 03:30:30.928 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 03:30:30.939 - [Debug] [Auth] Attacker 54.38.97.156 trying to authenticate with 'password'
+2022-10-25 03:30:30.939 - [Debug] [Auto Access] Attacker: 54.38.97.156, Threshold: 1, Attempts: 1
+2022-10-25 03:30:30.939 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 03:30:30.940 - [Debug] [Auto Access] Adding the following credentials: 'root:1'
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

@@ -1,0 +1,24 @@
+
+022-10-25 00:34:12.338 - [Debug] [Auth] Attacker 93.91.117.60 trying to authenticate with 'publickey'
+2022-10-25 00:34:12.338 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 00:34:12.339 - [Debug] [Auth] Attacker: 93.91.117.60 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 00:34:12.620 - [Debug] [Auth] Attacker 223.171.91.144 trying to authenticate with 'none'
+2022-10-25 00:34:12.620 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 00:34:12.672 - [Debug] [Auth] Attacker 120.236.69.162 trying to authenticate with 'publickey'
+2022-10-25 00:34:12.672 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 00:34:12.673 - [Debug] [Auth] Attacker: 120.236.69.162 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 00:34:12.730 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 00:34:12.735 - [Debug] [Auth] Attacker 89.121.228.38 trying to authenticate with 'none'
+2022-10-25 00:34:12.735 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 00:34:12.974 - [Debug] [Connection] Attacker connected: 93.91.117.60 | Client Identification: SSH-2.0-Go
+2022-10-25 00:34:13.031 - [Debug] [Auth] Attacker 89.121.228.38 trying to authenticate with 'password'
+2022-10-25 00:34:13.031 - [Debug] [Auto Access] Attacker: 89.121.228.38, Threshold: 1, Attempts: 1
+2022-10-25 00:34:13.032 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 00:34:13.032 - [Debug] [Auto Access] Adding the following credentials: 'root:1'
+2022-10-25 00:34:13.134 - [Debug] [Auto Access] Auto-access is now disabled for the remainder of this MITM server instance
+2022-10-25 00:34:13.136 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 00:34:13.136 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.168
+2022-10-25 00:34:13.156 - [Debug] [Auth] Attacker 223.171.91.144 trying to authenticate with 'publickey'
+2022-10-25 00:34:13.159 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 00:34:13.159 - [Debug] [Auth] Attacker: 223.171.91.144 has so far made 1 attempts. Remaining: 5 attempts
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

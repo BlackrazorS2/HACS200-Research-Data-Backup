@@ -1,0 +1,10 @@
+
+2022-10-25 19:26:26.351 - [Debug] [Auth] Attacker 78.189.25.224 trying to authenticate with 'none'
+2022-10-25 19:26:26.351 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:26:26.352 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 19:26:26.377 - [Debug] [Connection] Attacker connected: 112.160.137.62 | Client Identification: SSH-2.0-Go
+2022-10-25 19:26:26.494 - [Debug] [Connection] Attacker connected: 5.28.139.161 | Client Identification: SSH-2.0-Go
+2022-10-25 19:26:26.730 - [Debug] [Auth] Attacker 78.189.25.224 trying to authenticate with 'publickey'
+2022-10-25 19:26:26.730 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:26:26.731 - [Debug] [Auth] Attacker: 78.189.25.224 has so far made 1 attempts. Remaining: 5 attempts
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

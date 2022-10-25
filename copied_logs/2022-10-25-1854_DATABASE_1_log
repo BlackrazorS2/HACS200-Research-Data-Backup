@@ -1,0 +1,16 @@
+
+2022-10-25 18:54:14.724 - [Debug] [Connection] Attacker connected: 85.53.55.133 | Client Identification: SSH-2.0-Go
+2022-10-25 18:54:14.842 - [Debug] [Auth] Attacker 223.223.200.243 trying to authenticate with 'publickey'
+2022-10-25 18:54:14.843 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:54:14.843 - [Debug] [Auth] Attacker: 223.223.200.243 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:54:15.313 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:54:15.404 - [Debug] [Auth] Attacker 85.53.55.133 trying to authenticate with 'none'
+2022-10-25 18:54:15.404 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:54:15.613 - [Debug] [Auth] Attacker 85.53.55.133 trying to authenticate with 'password'
+2022-10-25 18:54:15.614 - [Debug] [Auto Access] Attacker: 85.53.55.133, Threshold: 1, Attempts: 1
+2022-10-25 18:54:15.614 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 18:54:15.614 - [Debug] [Auto Access] Adding the following credentials: 'root:1'
+2022-10-25 18:54:15.692 - [Debug] [Auto Access] Auto-access is now disabled for the remainder of this MITM server instance
+2022-10-25 18:54:15.700 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 18:54:15.700 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.43
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

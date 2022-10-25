@@ -1,0 +1,8 @@
+
+2022-10-25 01:40:00.423 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 01:40:00.467 - [Debug] [Auth] Attacker 85.105.58.118 trying to authenticate with 'password'
+2022-10-25 01:40:00.467 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 01:40:00.468 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.65
+2022-10-25 01:40:00.527 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 01:40:00.559 - [Debug] [Connection] Attacker connected: 85.105.82.39 | Client Identification: SSH-2.0-Go
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

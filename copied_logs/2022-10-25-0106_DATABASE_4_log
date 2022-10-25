@@ -1,0 +1,58 @@
+
+2022-10-25 01:05:44.500 - [Debug] [Connection] Attacker connected: 180.93.32.58 | Client Identification: SSH-2.0-Go
+2022-10-25 01:05:44.634 - [Debug] [Auth] Attacker 209.216.177.158 trying to authenticate with 'none'
+2022-10-25 01:05:44.634 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:05:44.842 - [Debug] [Auth] Attacker 209.216.177.158 trying to authenticate with 'password'
+2022-10-25 01:05:44.843 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 01:05:44.843 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.166
+2022-10-25 01:05:44.882 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 01:05:45.301 - [Debug] [EXEC] Noninteractive mode attacker command: PATH=/dev/shm/:/tmp/:./:/var/tmp/:/root/:/etc/:$PATH nc localhost 1234
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:2250825) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_4',
+  containerIp: '10.0.3.213',
+  mitmPort: 1003,
+  autoAccessFixed: 1
+}
+2022-10-25 01:06:49.242 - [Info] MITM Version: 2
+2022-10-25 01:06:49.243 - [Info] Auto Access Enabled: true
+2022-10-25 01:06:49.244 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 01:06:49.250 - [Info] SSH man-in-the-middle server for 10.0.3.213 listening on 10.0.3.1:1003
+2022-10-25 01:06:49.557 - [Debug] [Connection] Attacker connected: 85.53.55.133 | Client Identification: SSH-2.0-Go
+2022-10-25 01:06:49.588 - [Debug] [Connection] Attacker connected: 180.93.32.58 | Client Identification: SSH-2.0-Go
+2022-10-25 01:06:50.278 - [Debug] [Auth] Attacker 85.53.55.133 trying to authenticate with 'none'
+2022-10-25 01:06:50.278 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:06:50.503 - [Debug] [Auth] Attacker 85.53.55.133 trying to authenticate with 'password'
+2022-10-25 01:06:50.504 - [Debug] [Auto Access] Attacker: 85.53.55.133, Threshold: 1, Attempts: 1
+2022-10-25 01:06:50.505 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 01:06:50.505 - [Debug] [Auto Access] Adding the following credentials: 'root:1'
+2022-10-25 01:06:50.563 - [Debug] [Auto Access] Auto-access is now disabled for the remainder of this MITM server instance
+2022-10-25 01:06:50.565 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 01:06:50.565 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.213
+2022-10-25 01:06:50.592 - [Debug] [Connection] Attacker connected: 223.171.91.120 | Client Identification: SSH-2.0-Go
+2022-10-25 01:06:50.626 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 01:06:51.116 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2022-10-25 01:06:51.152 - [Debug] [Auth] Attacker 180.93.32.58 trying to authenticate with 'none'
+2022-10-25 01:06:51.153 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 01:06:51.345 - [Debug] [Connection] Attacker closed connection
+2022-10-25 01:06:51.352 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 01:06:51.353 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 01:06:51.698 - [Debug] [Auth] Attacker 180.93.32.58 trying to authenticate with 'password'
+2022-10-25 01:06:51.699 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 01:06:51.699 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.213
+2022-10-25 01:06:51.741 - [Debug] [LXC-Auth] Attacker authenticated and is inside container

@@ -1,0 +1,9 @@
+
+2022-10-25 19:46:35.013 - [Debug] [Connection] Attacker connected: 222.103.98.58 | Client Identification: SSH-2.0-Go
+2022-10-25 19:46:35.052 - [Debug] [Connection] Attacker closed connection
+2022-10-25 19:46:35.063 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 19:46:35.063 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 19:46:35.082 - [Debug] [Connection] Attacker closed connection
+2022-10-25 19:46:35.088 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 19:46:35.090 - [Debug] [LXC] Container's OpenSSH server closed connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

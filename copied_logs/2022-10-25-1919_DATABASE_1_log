@@ -1,0 +1,5 @@
+
+2022-10-25 19:19:09.749 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 19:19:09.816 - [Debug] [Connection] Attacker connected: 222.117.95.174 | Client Identification: SSH-2.0-Go
+2022-10-25 19:19:09.959 - [Debug] [Connection] Attacker connected: 58.216.8.121 | Client Identification: SSH-2.0-Go
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

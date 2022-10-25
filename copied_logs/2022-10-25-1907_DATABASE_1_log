@@ -1,0 +1,66 @@
+
+(node:716837) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_1',
+  containerIp: '10.0.3.186',
+  mitmPort: 1000,
+  autoAccessFixed: 1
+}
+2022-10-25 19:07:23.767 - [Info] MITM Version: 2
+2022-10-25 19:07:23.768 - [Info] Auto Access Enabled: true
+2022-10-25 19:07:23.769 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 19:07:23.786 - [Info] SSH man-in-the-middle server for 10.0.3.186 listening on 10.0.3.1:1000
+(node:724371) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_1',
+  containerIp: '10.0.3.38',
+  mitmPort: 1000,
+  autoAccessFixed: 1
+}
+2022-10-25 19:07:56.336 - [Info] MITM Version: 2
+2022-10-25 19:07:56.338 - [Info] Auto Access Enabled: true
+2022-10-25 19:07:56.338 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 19:07:56.359 - [Debug] listen EADDRINUSE: address already in use 10.0.3.1:1000
+2022-10-25 19:07:56.360 - [Error] Another MITM instance or another program is already listening on this port
+{"level":"error","message":"Forever detected script exited with code: 1"}
+2022-10-25 19:07:56.437 - [Debug] [Connection] Attacker connected: 209.216.177.158 | Client Identification: SSH-2.0-Go
+2022-10-25 19:07:56.490 - [Debug] [Connection] Attacker connected: 95.91.13.119 | Client Identification: SSH-2.0-Go
+2022-10-25 19:07:56.998 - [Debug] [Auth] Attacker 209.216.177.158 trying to authenticate with 'none'
+2022-10-25 19:07:56.999 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:07:57.210 - [Debug] [Auth] Attacker 209.216.177.158 trying to authenticate with 'publickey'
+2022-10-25 19:07:57.212 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:07:57.212 - [Debug] [Auth] Attacker: 209.216.177.158 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:07:57.255 - [Debug] [Auth] Attacker 95.91.13.119 trying to authenticate with 'none'
+2022-10-25 19:07:57.256 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:07:57.427 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 19:07:57.452 - [Debug] [Connection] Attacker connected: 222.117.95.174 | Client Identification: SSH-2.0-Go
+2022-10-25 19:07:57.509 - [Debug] [Connection] Attacker connected: 209.216.177.158 | Client Identification: SSH-2.0-Go
+2022-10-25 19:07:57.517 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go

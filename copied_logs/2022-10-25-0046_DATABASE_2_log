@@ -1,0 +1,15 @@
+
+2022-10-25 00:44:55.281 - [Debug] [Auth] Attacker 84.16.224.173 trying to authenticate with 'none'
+2022-10-25 00:44:55.282 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 00:44:55.345 - [Debug] [Connection] Attacker connected: 31.165.5.154 | Client Identification: SSH-2.0-Go
+2022-10-25 00:44:55.420 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 00:44:55.589 - [Debug] [Auth] Attacker 84.16.224.173 trying to authenticate with 'password'
+2022-10-25 00:44:55.589 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 00:44:55.589 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.209
+2022-10-25 00:44:55.630 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 00:44:55.674 - [Debug] [Auth] Attacker 195.87.73.176 trying to authenticate with 'none'
+2022-10-25 00:44:55.674 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 00:44:55.741 - [Debug] [Connection] Attacker connected: 223.171.91.182 | Client Identification: SSH-2.0-Go
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:2073262) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)

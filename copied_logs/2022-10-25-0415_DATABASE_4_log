@@ -1,0 +1,31 @@
+
+022-10-25 04:14:56.889 - [Debug] [Auto Access] Auto-access is now disabled for the remainder of this MITM server instance
+2022-10-25 04:14:56.891 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 04:14:56.891 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.227
+2022-10-25 04:14:56.896 - [Debug] [Auth] Attacker 144.22.130.100 trying to authenticate with 'none'
+2022-10-25 04:14:56.896 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:14:56.951 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 04:14:57.151 - [Debug] [Auth] Attacker 144.22.130.100 trying to authenticate with 'password'
+2022-10-25 04:14:57.152 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 04:14:57.152 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.227
+2022-10-25 04:14:57.189 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 04:14:57.301 - [Debug] [Connection] Attacker connected: 78.187.13.206 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:57.416 - [Debug] [Auth] Attacker 80.147.162.151 trying to authenticate with 'none'
+2022-10-25 04:14:57.416 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:14:57.483 - [Debug] [Auth] Attacker 194.24.174.8 trying to authenticate with 'password'
+2022-10-25 04:14:57.483 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 04:14:57.483 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.227
+2022-10-25 04:14:57.522 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 04:14:57.608 - [Debug] [Auth] Attacker 117.80.212.33 trying to authenticate with 'none'
+2022-10-25 04:14:57.609 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:14:57.683 - [Debug] [Auth] Attacker 80.147.162.151 trying to authenticate with 'password'
+2022-10-25 04:14:57.684 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 04:14:57.684 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.227
+2022-10-25 04:14:57.689 - [Debug] [Auth] Attacker 62.12.108.44 trying to authenticate with 'none'
+2022-10-25 04:14:57.690 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:14:57.720 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 04:14:57.725 - [Debug] [EXEC] Noninteractive mode attacker command: PATH=/dev/shm/:/tmp/:./:/var/tmp/:/root/:/etc/:$PATH nc localhost 1234
+2022-10-25 04:14:57.812 - [Debug] [Connection] Attacker connected: 223.99.166.104 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:57.885 - [Debug] [EXEC] Noninteractive mode attacker command: PATH=/dev/shm/:/tmp/:./:/var/tmp/:/root/:/etc/:$PATH nc localhost 1234
+2022-10-25 04:14:58.025 - [Debug] [Connection] Attacker closed connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

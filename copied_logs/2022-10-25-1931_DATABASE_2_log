@@ -1,0 +1,11 @@
+
+2022-10-25 19:30:19.410 - [Debug] [Connection] Attacker closed connection
+2022-10-25 19:30:19.418 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 19:30:19.419 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 19:30:19.598 - [Debug] [Auth] Attacker 120.236.78.194 trying to authenticate with 'publickey'
+2022-10-25 19:30:19.599 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:30:19.599 - [Debug] [Auth] Attacker: 120.236.78.194 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:30:19.668 - [Debug] [Auth] Attacker 45.120.216.114 trying to authenticate with 'publickey'
+2022-10-25 19:30:19.669 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:30:19.669 - [Debug] [Auth] Attacker: 45.120.216.114 has so far made 1 attempts. Remaining: 5 attempts
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

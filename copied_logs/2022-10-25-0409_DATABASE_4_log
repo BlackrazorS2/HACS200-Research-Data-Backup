@@ -1,0 +1,8 @@
+
+2022-10-25 04:08:06.211 - [Debug] [Connection] Attacker closed connection
+2022-10-25 04:08:06.216 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 04:08:06.216 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 04:08:06.232 - [Debug] [Auth] Attacker 89.100.220.200 trying to authenticate with 'none'
+2022-10-25 04:08:06.233 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:08:06.328 - [Debug] [Connection] Attacker connected: 80.147.162.151 | Client Identification: SSH-2.0-Go
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

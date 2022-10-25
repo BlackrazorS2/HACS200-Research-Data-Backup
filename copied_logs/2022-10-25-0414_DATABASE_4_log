@@ -1,0 +1,54 @@
+
+(node:24965) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_4',
+  containerIp: '10.0.3.227',
+  mitmPort: 1003,
+  autoAccessFixed: 1
+}
+2022-10-25 04:14:53.880 - [Info] MITM Version: 2
+2022-10-25 04:14:53.881 - [Info] Auto Access Enabled: true
+2022-10-25 04:14:53.882 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 04:14:53.889 - [Info] SSH man-in-the-middle server for 10.0.3.227 listening on 10.0.3.1:1003
+2022-10-25 04:14:54.582 - [Debug] [Connection] Attacker connected: 144.22.130.100 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:54.754 - [Debug] [Connection] Attacker connected: 62.12.108.44 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:54.917 - [Debug] [Connection] Attacker connected: 124.221.165.133 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:55.368 - [Debug] [Auth] Attacker 144.22.130.100 trying to authenticate with 'none'
+2022-10-25 04:14:55.378 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:14:55.405 - [Debug] [Connection] Attacker connected: 194.24.174.8 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:55.635 - [Debug] [Auth] Attacker 144.22.130.100 trying to authenticate with 'publickey'
+2022-10-25 04:14:55.637 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 04:14:55.638 - [Debug] [Auth] Attacker: 144.22.130.100 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 04:14:55.774 - [Debug] [Auth] Attacker 62.12.108.44 trying to authenticate with 'none'
+2022-10-25 04:14:55.775 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:14:55.885 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 04:14:56.010 - [Debug] [Connection] Attacker connected: 144.22.130.100 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:56.145 - [Debug] [Auth] Attacker 62.12.108.44 trying to authenticate with 'publickey'
+2022-10-25 04:14:56.145 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 04:14:56.145 - [Debug] [Auth] Attacker: 62.12.108.44 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 04:14:56.250 - [Debug] [Auth] Attacker 124.221.165.133 trying to authenticate with 'none'
+2022-10-25 04:14:56.252 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:14:56.295 - [Debug] [Connection] Attacker connected: 117.80.212.33 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:56.503 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 04:14:56.670 - [Debug] [Connection] Attacker connected: 62.12.108.44 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:56.678 - [Debug] [Connection] Attacker connected: 80.147.162.151 | Client Identification: SSH-2.0-Go
+2022-10-25 04:14:56.705 - [Debug] [Auth] Attacker 194.24.174.8 trying to authenticate with 'none'
+2022-10-25 04:14:56.705 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 04:14:56.720 - [Debug] [Auth] Attacker 124.221.165.133 trying to authenticate with 'password'
+2022-10-25 04:14:56.721 - [Debug] [Auto Access] Attacker: 124.221.165.133, Threshold: 1, Attempts: 1
+2022-10-25 04:14:56.721 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 04:14:56.721 - [Debug] [Auto Access] Adding the following credentials: 'root:1'

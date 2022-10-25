@@ -1,0 +1,13 @@
+
+2022-10-25 02:00:58.728 - [Debug] [Auth] Attacker 184.67.149.186 trying to authenticate with 'publickey'
+2022-10-25 02:00:58.729 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 02:00:58.729 - [Debug] [Auth] Attacker: 184.67.149.186 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 02:00:58.754 - [Debug] [Connection] Attacker connected: 58.216.8.121 | Client Identification: SSH-2.0-Go
+2022-10-25 02:00:58.767 - [Debug] [Auth] Attacker 206.189.25.255 trying to authenticate with 'publickey'
+2022-10-25 02:00:58.767 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 02:00:58.768 - [Debug] [Auth] Attacker: 206.189.25.255 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 02:00:58.927 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 02:00:58.946 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 02:00:59.012 - [Debug] [Connection] Attacker connected: 206.189.25.255 | Client Identification: SSH-2.0-Go
+2022-10-25 02:00:59.038 - [Debug] [Connection] Attacker connected: 184.67.149.186 | Client Identification: SSH-2.0-Go
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

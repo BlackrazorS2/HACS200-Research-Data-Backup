@@ -1,0 +1,15 @@
+
+2022-10-25 01:43:22.562 - [Debug] [Connection] Attacker connected: 112.167.233.14 | Client Identification: SSH-2.0-Go
+2022-10-25 01:43:22.668 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 01:43:22.771 - [Debug] [Auth] Attacker 121.200.53.148 trying to authenticate with 'password'
+2022-10-25 01:43:22.772 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 01:43:22.772 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.137
+2022-10-25 01:43:22.785 - [Debug] [Connection] Attacker closed connection
+2022-10-25 01:43:22.791 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 01:43:22.793 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 01:43:22.825 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 01:43:22.923 - [Debug] [Connection] Attacker connected: 223.171.91.158 | Client Identification: SSH-2.0-Go
+2022-10-25 01:43:23.069 - [Debug] [Connection] Attacker closed connection
+2022-10-25 01:43:23.073 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 01:43:23.073 - [Debug] [LXC] Container's OpenSSH server closed connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

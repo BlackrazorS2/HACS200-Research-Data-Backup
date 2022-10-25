@@ -1,0 +1,55 @@
+
+(node:2813368) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:2822676) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_4',
+  containerIp: '10.0.3.128',
+  mitmPort: 1003,
+  autoAccessFixed: 1
+}
+2022-10-25 02:14:03.469 - [Info] MITM Version: 2
+2022-10-25 02:14:03.470 - [Info] Auto Access Enabled: true
+2022-10-25 02:14:03.470 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 02:14:03.477 - [Info] SSH man-in-the-middle server for 10.0.3.128 listening on 10.0.3.1:1003
+2022-10-25 02:14:03.854 - [Debug] [Connection] Attacker connected: 43.139.28.174 | Client Identification: SSH-2.0-Go
+2022-10-25 02:14:03.913 - [Debug] [Connection] Attacker connected: 58.216.8.121 | Client Identification: SSH-2.0-Go
+2022-10-25 02:14:03.966 - [Debug] [Connection] Attacker connected: 124.220.163.75 | Client Identification: SSH-2.0-Go
+2022-10-25 02:14:04.512 - [Debug] [Connection] Attacker connected: 178.140.136.178 | Client Identification: SSH-2.0-Go
+2022-10-25 02:14:04.779 - [Debug] [Connection] Attacker connected: 69.236.215.6 | Client Identification: SSH-2.0-Go
+2022-10-25 02:14:05.029 - [Debug] [Auth] Attacker 69.236.215.6 trying to authenticate with 'none'
+2022-10-25 02:14:05.029 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:14:05.129 - [Debug] [Auth] Attacker 69.236.215.6 trying to authenticate with 'publickey'
+2022-10-25 02:14:05.131 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 02:14:05.131 - [Debug] [Auth] Attacker: 69.236.215.6 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 02:14:05.242 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 02:14:05.244 - [Debug] [Auth] Attacker 43.139.28.174 trying to authenticate with 'none'
+2022-10-25 02:14:05.244 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:14:05.277 - [Debug] [Connection] Attacker connected: 69.236.215.6 | Client Identification: SSH-2.0-Go
+2022-10-25 02:14:05.316 - [Debug] [Auth] Attacker 58.216.8.121 trying to authenticate with 'none'
+2022-10-25 02:14:05.316 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:14:05.405 - [Debug] [Auth] Attacker 178.140.136.178 trying to authenticate with 'none'
+2022-10-25 02:14:05.406 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:14:05.532 - [Debug] [Auth] Attacker 124.220.163.75 trying to authenticate with 'none'
+2022-10-25 02:14:05.533 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:14:05.539 - [Debug] [Auth] Attacker 69.236.215.6 trying to authenticate with 'none'
+2022-10-25 02:14:05.539 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:14:05.654 - [Debug] [Auth] Attacker 69.236.215.6 trying to authenticate with 'password'
+2022-10-25 02:14:05.654 - [Debug] [Auto Access] Attacker: 69.236.215.6, Threshold: 1, Attempts: 1
+2022-10-25 02:14:05.654 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 02:14:05.654 - [Debug] [Auto Access] Adding the following credentials: 'root:1'

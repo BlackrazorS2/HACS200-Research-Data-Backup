@@ -1,0 +1,70 @@
+
+(node:948960) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_1',
+  containerIp: '10.0.3.114',
+  mitmPort: 1000,
+  autoAccessFixed: 1
+}
+2022-10-25 19:31:23.619 - [Info] MITM Version: 2
+2022-10-25 19:31:23.620 - [Info] Auto Access Enabled: true
+2022-10-25 19:31:23.620 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 19:31:23.630 - [Info] SSH man-in-the-middle server for 10.0.3.114 listening on 10.0.3.1:1000
+2022-10-25 19:31:54.206 - [Debug] [Connection] Attacker connected: 146.56.115.253 | Client Identification: SSH-2.0-Go
+2022-10-25 19:31:54.447 - [Debug] [Connection] Attacker connected: 58.216.8.121 | Client Identification: SSH-2.0-Go
+(node:952836) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+2022-10-25 19:31:54.837 - [Debug] [Connection] Attacker connected: 54.38.97.156 | Client Identification: SSH-2.0-Go
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_1',
+  containerIp: '10.0.3.4',
+  mitmPort: 1000,
+  autoAccessFixed: 1
+}
+2022-10-25 19:31:54.921 - [Info] MITM Version: 2
+2022-10-25 19:31:54.924 - [Info] Auto Access Enabled: true
+2022-10-25 19:31:54.925 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 19:31:54.936 - [Debug] listen EADDRINUSE: address already in use 10.0.3.1:1000
+2022-10-25 19:31:54.937 - [Error] Another MITM instance or another program is already listening on this port
+{"level":"error","message":"Forever detected script exited with code: 1"}
+2022-10-25 19:31:55.039 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 19:31:55.156 - [Debug] [Connection] Attacker connected: 121.200.53.148 | Client Identification: SSH-2.0-Go
+2022-10-25 19:31:55.349 - [Debug] [Auth] Attacker 54.38.97.156 trying to authenticate with 'none'
+2022-10-25 19:31:55.349 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:31:55.456 - [Debug] [Connection] Attacker connected: 31.165.5.154 | Client Identification: SSH-2.0-Go
+2022-10-25 19:31:55.585 - [Debug] [Auth] Attacker 146.56.115.253 trying to authenticate with 'none'
+2022-10-25 19:31:55.585 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:31:55.669 - [Debug] [Auth] Attacker 54.38.97.156 trying to authenticate with 'publickey'
+2022-10-25 19:31:55.671 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 19:31:55.671 - [Debug] [Auth] Attacker: 54.38.97.156 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 19:31:55.755 - [Debug] [Auth] Attacker 58.216.8.121 trying to authenticate with 'none'
+2022-10-25 19:31:55.755 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 19:31:55.838 - [Debug] [Connection] Attacker connected: 62.12.108.44 | Client Identification: SSH-2.0-Go
+2022-10-25 19:31:55.846 - [Debug] [Connection] Attacker closed the connection

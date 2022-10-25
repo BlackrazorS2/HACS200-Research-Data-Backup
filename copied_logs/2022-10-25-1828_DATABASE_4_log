@@ -1,0 +1,6 @@
+
+2022-10-25 18:27:49.791 - [Debug] [EXEC] Noninteractive mode attacker command: uname -a
+2022-10-25 18:27:50.073 - [Debug] [Connection] Attacker closed connection
+2022-10-25 18:27:50.081 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 18:27:50.081 - [Debug] [LXC] Container's OpenSSH server closed connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

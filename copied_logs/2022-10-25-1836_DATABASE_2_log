@@ -1,0 +1,234 @@
+
+(node:452993) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_2',
+  containerIp: '10.0.3.48',
+  mitmPort: 1001,
+  autoAccessFixed: 1
+}
+2022-10-25 18:34:54.518 - [Info] MITM Version: 2
+2022-10-25 18:34:54.519 - [Info] Auto Access Enabled: true
+2022-10-25 18:34:54.519 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 18:34:54.527 - [Info] SSH man-in-the-middle server for 10.0.3.48 listening on 10.0.3.1:1001
+2022-10-25 18:34:54.954 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:34:59.601 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:34:59.601 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:00.086 - [Debug] [Connection] Attacker connected: 165.22.107.2 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:01.017 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'publickey'
+2022-10-25 18:35:01.018 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:01.019 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:01.525 - [Debug] [Auth] Attacker 165.22.107.2 trying to authenticate with 'none'
+2022-10-25 18:35:01.526 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:01.989 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:01.996 - [Debug] [Auth] Attacker 165.22.107.2 trying to authenticate with 'password'
+2022-10-25 18:35:01.997 - [Debug] [Auto Access] Attacker: 165.22.107.2, Threshold: 1, Attempts: 1
+2022-10-25 18:35:01.997 - [Debug] [Auto Access] Compromising the honeypot
+2022-10-25 18:35:01.997 - [Debug] [Auto Access] Adding the following credentials: 'root:ubuntu'
+2022-10-25 18:35:02.072 - [Debug] [Auto Access] Auto-access is now disabled for the remainder of this MITM server instance
+2022-10-25 18:35:02.073 - [Debug] [Auth] Valid credentials - Password Authentication
+2022-10-25 18:35:02.073 - [Debug] [LXC] Attempting to connect to the honeypot: 10.0.3.48
+2022-10-25 18:35:02.132 - [Debug] [LXC-Auth] Attacker authenticated and is inside container
+2022-10-25 18:35:02.199 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:03.589 - [Debug] [Connection] Attacker closed connection
+2022-10-25 18:35:03.595 - [Debug] [LXC] Container's OpenSSH server ended connection
+2022-10-25 18:35:03.596 - [Debug] [LXC] Container's OpenSSH server closed connection
+2022-10-25 18:35:05.561 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:05.561 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:06.958 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'password'
+2022-10-25 18:35:06.958 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:06.958 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:07.866 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:07.922 - [Debug] [Connection] Attacker connected: 113.125.191.234 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:08.084 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:09.414 - [Debug] [Auth] Attacker 113.125.191.234 trying to authenticate with 'none'
+2022-10-25 18:35:09.415 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:09.939 - [Debug] [Auth] Attacker 113.125.191.234 trying to authenticate with 'publickey'
+2022-10-25 18:35:09.940 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:09.940 - [Debug] [Auth] Attacker: 113.125.191.234 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:10.463 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:10.702 - [Debug] [Connection] Attacker connected: 113.125.191.234 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:11.791 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:11.791 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:12.174 - [Debug] [Auth] Attacker 113.125.191.234 trying to authenticate with 'none'
+2022-10-25 18:35:12.174 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:12.700 - [Debug] [Auth] Attacker 113.125.191.234 trying to authenticate with 'password'
+2022-10-25 18:35:12.701 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:12.702 - [Debug] [Auth] Attacker: 113.125.191.234 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:13.064 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'publickey'
+2022-10-25 18:35:13.065 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:13.066 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:13.220 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:13.868 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:14.092 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:17.459 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:17.459 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:18.805 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'password'
+2022-10-25 18:35:18.806 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:18.806 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:19.695 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:19.940 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:23.324 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:23.324 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:24.495 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'publickey'
+2022-10-25 18:35:24.496 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:24.497 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:25.309 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:25.517 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:27.673 - [Debug] [Connection] Attacker connected: 213.255.16.153 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:28.436 - [Debug] [Auth] Attacker 213.255.16.153 trying to authenticate with 'none'
+2022-10-25 18:35:28.436 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:28.545 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:28.545 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:28.719 - [Debug] [Auth] Attacker 213.255.16.153 trying to authenticate with 'publickey'
+2022-10-25 18:35:28.720 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:28.721 - [Debug] [Auth] Attacker: 213.255.16.153 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:29.005 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:29.129 - [Debug] [Connection] Attacker connected: 213.255.16.153 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:29.684 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'password'
+2022-10-25 18:35:29.684 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:29.684 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:29.891 - [Debug] [Auth] Attacker 213.255.16.153 trying to authenticate with 'none'
+2022-10-25 18:35:29.891 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:30.184 - [Debug] [Auth] Attacker 213.255.16.153 trying to authenticate with 'password'
+2022-10-25 18:35:30.184 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:30.185 - [Debug] [Auth] Attacker: 213.255.16.153 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:30.474 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:30.508 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:30.655 - [Debug] [Connection] Attacker connected: 103.90.177.102 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:30.730 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:32.149 - [Debug] [Auth] Attacker 103.90.177.102 trying to authenticate with 'none'
+2022-10-25 18:35:32.149 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:32.675 - [Debug] [Auth] Attacker 103.90.177.102 trying to authenticate with 'publickey'
+2022-10-25 18:35:32.676 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:32.676 - [Debug] [Auth] Attacker: 103.90.177.102 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:33.198 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:33.447 - [Debug] [Connection] Attacker connected: 103.90.177.102 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:33.915 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:33.916 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:34.952 - [Debug] [Auth] Attacker 103.90.177.102 trying to authenticate with 'none'
+2022-10-25 18:35:34.952 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:35.120 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'publickey'
+2022-10-25 18:35:35.121 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:35.121 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:35.480 - [Debug] [Auth] Attacker 103.90.177.102 trying to authenticate with 'password'
+2022-10-25 18:35:35.481 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:35.481 - [Debug] [Auth] Attacker: 103.90.177.102 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:35.952 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:36.007 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:36.171 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:39.320 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:39.320 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:40.018 - [Debug] [Connection] Attacker connected: 117.80.212.33 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:40.640 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'password'
+2022-10-25 18:35:40.640 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:40.641 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:41.353 - [Debug] [Auth] Attacker 117.80.212.33 trying to authenticate with 'none'
+2022-10-25 18:35:41.353 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:41.496 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:41.739 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:41.829 - [Debug] [Auth] Attacker 117.80.212.33 trying to authenticate with 'publickey'
+2022-10-25 18:35:41.830 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:41.830 - [Debug] [Auth] Attacker: 117.80.212.33 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:42.305 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:42.506 - [Debug] [Connection] Attacker connected: 117.80.212.33 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:43.792 - [Debug] [Auth] Attacker 117.80.212.33 trying to authenticate with 'none'
+2022-10-25 18:35:43.793 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:44.246 - [Debug] [Auth] Attacker 117.80.212.33 trying to authenticate with 'password'
+2022-10-25 18:35:44.246 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:44.247 - [Debug] [Auth] Attacker: 117.80.212.33 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:44.706 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:44.880 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:44.881 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:46.474 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'publickey'
+2022-10-25 18:35:46.475 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:46.475 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:47.199 - [Debug] [Connection] Attacker connected: 89.121.228.38 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:47.238 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:47.494 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:48.023 - [Debug] [Auth] Attacker 89.121.228.38 trying to authenticate with 'none'
+2022-10-25 18:35:48.023 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:48.319 - [Debug] [Auth] Attacker 89.121.228.38 trying to authenticate with 'publickey'
+2022-10-25 18:35:48.320 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:48.320 - [Debug] [Auth] Attacker: 89.121.228.38 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:48.618 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:48.736 - [Debug] [Connection] Attacker connected: 89.121.228.38 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:49.518 - [Debug] [Auth] Attacker 89.121.228.38 trying to authenticate with 'none'
+2022-10-25 18:35:49.518 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:49.805 - [Debug] [Auth] Attacker 89.121.228.38 trying to authenticate with 'password'
+2022-10-25 18:35:49.805 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:49.806 - [Debug] [Auth] Attacker: 89.121.228.38 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:50.092 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:51.253 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:51.253 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:52.503 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'password'
+2022-10-25 18:35:52.503 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:35:52.504 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:53.346 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:53.581 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:35:56.808 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:35:56.808 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:35:58.157 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'publickey'
+2022-10-25 18:35:58.157 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:35:58.159 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:35:59.061 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:35:59.303 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:36:03.895 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:36:03.895 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:36:05.063 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'password'
+2022-10-25 18:36:05.064 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:36:05.064 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:36:05.926 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:36:06.159 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:36:09.881 - [Debug] [Connection] Attacker connected: 61.181.247.238 | Client Identification: SSH-2.0-Go
+2022-10-25 18:36:11.502 - [Debug] [Auth] Attacker 61.181.247.238 trying to authenticate with 'none'
+2022-10-25 18:36:11.502 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:36:12.070 - [Debug] [Auth] Attacker 61.181.247.238 trying to authenticate with 'password'
+2022-10-25 18:36:12.072 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:36:12.072 - [Debug] [Auth] Attacker: 61.181.247.238 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:36:12.638 - [Debug] [Auth] Attacker 61.181.247.238 trying to authenticate with 'password'
+2022-10-25 18:36:12.639 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:36:12.639 - [Debug] [Auth] Attacker: 61.181.247.238 has so far made 2 attempts. Remaining: 4 attempts
+2022-10-25 18:36:12.967 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:36:12.967 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:36:13.206 - [Debug] [Auth] Attacker 61.181.247.238 trying to authenticate with 'password'
+2022-10-25 18:36:13.207 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:36:13.207 - [Debug] [Auth] Attacker: 61.181.247.238 has so far made 3 attempts. Remaining: 3 attempts
+2022-10-25 18:36:13.774 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:36:14.682 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'publickey'
+2022-10-25 18:36:14.683 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:36:14.683 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:36:15.582 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:36:15.792 - [Debug] [Connection] Attacker connected: 219.140.162.82 | Client Identification: SSH-2.0-Go
+2022-10-25 18:36:19.825 - [Debug] [Connection] Attacker connected: 93.103.126.32 | Client Identification: SSH-2.0-Go
+2022-10-25 18:36:20.362 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'none'
+2022-10-25 18:36:20.362 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:36:20.548 - [Debug] [Auth] Attacker 93.103.126.32 trying to authenticate with 'none'
+2022-10-25 18:36:20.548 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:36:20.808 - [Debug] [Auth] Attacker 93.103.126.32 trying to authenticate with 'publickey'
+2022-10-25 18:36:20.809 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 18:36:20.809 - [Debug] [Auth] Attacker: 93.103.126.32 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:36:21.065 - [Debug] [Connection] Attacker connected: 61.181.247.238 | Client Identification: SSH-2.0-Go
+2022-10-25 18:36:21.068 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:36:21.179 - [Debug] [Connection] Attacker connected: 93.103.126.32 | Client Identification: SSH-2.0-Go
+2022-10-25 18:36:21.835 - [Debug] [Auth] Attacker 219.140.162.82 trying to authenticate with 'password'
+2022-10-25 18:36:21.836 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:36:21.836 - [Debug] [Auth] Attacker: 219.140.162.82 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 18:36:21.898 - [Debug] [Auth] Attacker 93.103.126.32 trying to authenticate with 'none'
+2022-10-25 18:36:21.899 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:36:22.158 - [Debug] [Auth] Attacker 93.103.126.32 trying to authenticate with 'password'
+2022-10-25 18:36:22.159 - [Debug] [Auth] Attacker authentication error: Invalid credentials - Password Authentication Failure
+2022-10-25 18:36:22.159 - [Debug] [Auth] Attacker: 93.103.126.32 has so far made 1 attempts. Remaining: 5 attempts

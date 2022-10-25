@@ -1,0 +1,6 @@
+
+2022-10-25 18:36:22.421 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 18:36:22.697 - [Debug] [Auth] Attacker 61.181.247.238 trying to authenticate with 'none'
+2022-10-25 18:36:22.698 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 18:36:22.802 - [Debug] [Connection] Attacker closed the connection
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}

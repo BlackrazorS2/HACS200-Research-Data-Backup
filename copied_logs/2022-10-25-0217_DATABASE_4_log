@@ -1,0 +1,54 @@
+
+2022-10-25 02:16:18.641 - [Debug] [Auth] Attacker 124.220.163.75 trying to authenticate with 'none'
+2022-10-25 02:16:18.642 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:16:18.657 - [Debug] [Auth] Attacker 58.216.8.121 trying to authenticate with 'none'
+2022-10-25 02:16:18.657 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:16:18.659 - [Debug] [Auth] Attacker 93.91.117.60 trying to authenticate with 'none'
+2022-10-25 02:16:18.659 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:16:18.672 - [Debug] [Connection] Attacker connected: 45.120.216.114 | Client Identification: SSH-2.0-Go
+2022-10-25 02:16:18.728 - [Debug] [Auth] Attacker 121.200.53.148 trying to authenticate with 'none'
+2022-10-25 02:16:18.728 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:16:18.768 - [Debug] [Auth] Attacker 78.189.25.224 trying to authenticate with 'none'
+2022-10-25 02:16:18.768 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:16:18.959 - [Debug] [Auth] Attacker 93.91.117.60 trying to authenticate with 'publickey'
+2022-10-25 02:16:18.959 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 02:16:18.960 - [Debug] [Auth] Attacker: 93.91.117.60 has so far made 1 attempts. Remaining: 5 attempts
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:2850969) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Started with the following options:
+{
+  debug: true,
+  mitmIp: '10.0.3.1',
+  autoAccess: true,
+  autoAccessCache: 5000,
+  maxAttemptsPerConnection: 6,
+  sshServerIdentifier: 'SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2',
+  containerMountPathPrefix: '/var/lib/lxc',
+  containerMountPathSuffix: 'rootfs/',
+  loggingAttackerStreams: '/home/student/MITM/logs/session_streams',
+  loggingAuthenticationAttempts: '/home/student/MITM/logs/authentication_attempts',
+  loggingLogins: '/home/student/MITM/logs/logins',
+  loggingKeystrokes: '/home/student/MITM/logs/keystrokes',
+  containerName: 'DATABASE_4',
+  containerIp: '10.0.3.251',
+  mitmPort: 1003,
+  autoAccessFixed: 1
+}
+2022-10-25 02:17:25.070 - [Info] MITM Version: 2
+2022-10-25 02:17:25.071 - [Info] Auto Access Enabled: true
+2022-10-25 02:17:25.072 - [Debug] [Init] Auto Access Theshold Achieved: false
+2022-10-25 02:17:25.080 - [Info] SSH man-in-the-middle server for 10.0.3.251 listening on 10.0.3.1:1003
+2022-10-25 02:17:25.399 - [Debug] [Connection] Attacker connected: 147.182.233.56 | Client Identification: SSH-2.0-Go
+2022-10-25 02:17:25.402 - [Debug] [Connection] Attacker connected: 223.171.91.124 | Client Identification: SSH-2.0-Go
+2022-10-25 02:17:25.866 - [Debug] [Connection] Attacker connected: 59.3.186.45 | Client Identification: SSH-2.0-Go
+2022-10-25 02:17:25.888 - [Debug] [Auth] Attacker 147.182.233.56 trying to authenticate with 'none'
+2022-10-25 02:17:25.888 - [Debug] [Auth] Attacker authentication error: No authentication method provided
+2022-10-25 02:17:26.033 - [Debug] [Auth] Attacker 147.182.233.56 trying to authenticate with 'publickey'
+2022-10-25 02:17:26.034 - [Debug] [Auth] Attacker authentication error: Publickey authentication failed
+2022-10-25 02:17:26.035 - [Debug] [Auth] Attacker: 147.182.233.56 has so far made 1 attempts. Remaining: 5 attempts
+2022-10-25 02:17:26.187 - [Debug] [Connection] Attacker closed the connection
+2022-10-25 02:17:26.260 - [Debug] [Connection] Attacker connected: 147.182.233.56 | Client Identification: SSH-2.0-Go
+2022-10-25 02:17:26.386 - [Debug] [Connection] Attacker connected: 223.171.91.177 | Client Identification: SSH-2.0-Go
+2022-10-25 02:17:26.518 - [Debug] [Connection] Attacker connected: 121.200.53.148 | Client Identification: SSH-2.0-Go
+2022-10-25 02:17:26.545 - [Debug] [Connection] Attacker connected: 58.216.8.121 | Client Identification: SSH-2.0-Go
