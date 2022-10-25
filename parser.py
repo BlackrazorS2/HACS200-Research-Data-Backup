@@ -136,8 +136,8 @@ DB_2_avg["mods_avg"] = sum(DB_2_avg["mods"])/len(DB_2_avg["mods"])
 DB_3_avg["mods_avg"] = sum(DB_3_avg["mods"])/len(DB_3_avg["mods"])
 DB_4_avg["mods_avg"] = sum(DB_4_avg["mods"])/len(DB_4_avg["mods"])
 
-last = logs[-1].split("_")[0]
-with open(f"Parsed_Spreadsheets/STATS_AS_OF_{last}.csv", "w+", newline="") as csvfile:
+#last = logs[-1].split("_")[0]
+with open(f"Parsed_Spreadsheets/STATS_LATEST.csv", "w+", newline="") as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     writer.writeheader()
