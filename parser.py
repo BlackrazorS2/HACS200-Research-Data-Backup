@@ -15,13 +15,14 @@ MOD_LIST = ["rm",
             "curl",
             "apt",
             "apt-get",
-            ">>"
+            ">>",
+            "chmod"
             ]
 
 fieldnames = ["Attacker No.", "Database", "Time Entered", "Time Spent (S)", "Commands Run", "Modification Attempts","Filename", "Database (Avgs)", "Total # Attackers", "# Relevant Attackers","Avg Time Connected", "Avg Commands Run", "Avg File Modifications"]
 data = {"atk": [], "DB": [], "etr": [], "time": [], "cmd": [], "mods": [], "filename": []}
 
-logs = os.listdir("../Data Backups/")
+logs = os.listdir("copied_logs")
 logs.sort()
 
 for i, file in enumerate(logs):
@@ -29,7 +30,7 @@ for i, file in enumerate(logs):
     DBnum = file.split("_")[2] # logs are formatted as DATE_DATABASE_NUMBER_log
     data["DB"].append(DBnum)
     data["filename"].append(file)
-    with open(f"../Data Backups/{file}", "r") as log:
+    with open(f"copied_logs/{file}", "r") as log:
         conEpochms = 0
         cmds = 0
         mods = 0
@@ -136,7 +137,7 @@ DB_3_avg["mods_avg"] = sum(DB_3_avg["mods"])/len(DB_3_avg["mods"])
 DB_4_avg["mods_avg"] = sum(DB_4_avg["mods"])/len(DB_4_avg["mods"])
 
 last = logs[-1].split("_")[0]
-with open(f"STATS_AS_OF_{last}.csv", "w+", newline="") as csvfile:
+with open(f"Parsed_Spreadsheets/STATS_AS_OF_{last}.csv", "w+", newline="") as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     writer.writeheader()
