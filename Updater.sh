@@ -10,6 +10,7 @@ git fetch
 git pull
 git add copied_logs/*
 git commit -m "Backups" copied_logs/*
+git add Parsed_Spreadsheets/STATS_LATEST.csv
 git commit -m "Updated Spreadsheet" Parsed_Spreadsheets/STATS_LATEST.csv
 git push
 
